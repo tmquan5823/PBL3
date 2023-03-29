@@ -1,0 +1,15 @@
+D:\.NET\PBL3\GUI\bin\Debug\GUI.exe.config
+D:\.NET\PBL3\GUI\bin\Debug\GUI.exe
+D:\.NET\PBL3\GUI\bin\Debug\GUI.pdb
+D:\.NET\PBL3\GUI\bin\Debug\FontAwesome.Sharp.dll
+D:\.NET\PBL3\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\.NET\PBL3\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\.NET\PBL3\GUI\obj\Debug\GUI.FormLogin.resources
+D:\.NET\PBL3\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\.NET\PBL3\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\.NET\PBL3\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\.NET\PBL3\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\.NET\PBL3\GUI\obj\Debug\GUI.exe
+D:\.NET\PBL3\GUI\obj\Debug\GUI.pdb
+D:\.NET\PBL3\GUI\obj\Debug\GUI.FormQuanLy.resources
+D:\.NET\PBL3\GUI\obj\Debug\GUI.UCQuanLyNhanVien.resources
