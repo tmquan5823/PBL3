@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.panel_menu = new System.Windows.Forms.Panel();
+            this.panel_logo = new System.Windows.Forms.Panel();
+            this.panel_info = new System.Windows.Forms.Panel();
+            this.lbl_form = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_QuanLyHoaDon = new FontAwesome.Sharp.IconButton();
             this.btn_QuanLyDoanhThu = new FontAwesome.Sharp.IconButton();
             this.btn_QuanLyKhoHang = new FontAwesome.Sharp.IconButton();
             this.btn_QuanLySP = new FontAwesome.Sharp.IconButton();
             this.btn_QuanLyNV = new FontAwesome.Sharp.IconButton();
             this.btn_DangXuat = new FontAwesome.Sharp.IconButton();
             this.btn_user = new FontAwesome.Sharp.IconButton();
-            this.panel_logo = new System.Windows.Forms.Panel();
-            this.panel_info = new System.Windows.Forms.Panel();
-            this.lbl_form = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_QuanLyHoaDon = new FontAwesome.Sharp.IconButton();
             this.panel_menu.SuspendLayout();
             this.panel_info.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +61,61 @@
             this.panel_menu.Size = new System.Drawing.Size(300, 853);
             this.panel_menu.TabIndex = 0;
             // 
+            // panel_logo
+            // 
+            this.panel_logo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_logo.Location = new System.Drawing.Point(0, 0);
+            this.panel_logo.Name = "panel_logo";
+            this.panel_logo.Size = new System.Drawing.Size(300, 200);
+            this.panel_logo.TabIndex = 1;
+            // 
+            // panel_info
+            // 
+            this.panel_info.Controls.Add(this.lbl_form);
+            this.panel_info.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_info.Location = new System.Drawing.Point(300, 0);
+            this.panel_info.Name = "panel_info";
+            this.panel_info.Size = new System.Drawing.Size(1182, 50);
+            this.panel_info.TabIndex = 2;
+            // 
+            // lbl_form
+            // 
+            this.lbl_form.AutoSize = true;
+            this.lbl_form.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form.Location = new System.Drawing.Point(3, 9);
+            this.lbl_form.Name = "lbl_form";
+            this.lbl_form.Size = new System.Drawing.Size(108, 39);
+            this.lbl_form.TabIndex = 0;
+            this.lbl_form.Text = "Home";
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::GUI.Properties.Resources.icy2_5ebz_221114;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(300, 50);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1182, 803);
+            this.panel2.TabIndex = 3;
+            // 
+            // btn_QuanLyHoaDon
+            // 
+            this.btn_QuanLyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(114)))));
+            this.btn_QuanLyHoaDon.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_QuanLyHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_QuanLyHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_QuanLyHoaDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btn_QuanLyHoaDon.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btn_QuanLyHoaDon.IconColor = System.Drawing.Color.Black;
+            this.btn_QuanLyHoaDon.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_QuanLyHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_QuanLyHoaDon.Location = new System.Drawing.Point(0, 620);
+            this.btn_QuanLyHoaDon.Name = "btn_QuanLyHoaDon";
+            this.btn_QuanLyHoaDon.Size = new System.Drawing.Size(300, 70);
+            this.btn_QuanLyHoaDon.TabIndex = 12;
+            this.btn_QuanLyHoaDon.Text = "   Quản lý hóa đơn";
+            this.btn_QuanLyHoaDon.UseVisualStyleBackColor = false;
+            // 
             // btn_QuanLyDoanhThu
             // 
             this.btn_QuanLyDoanhThu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(114)))));
@@ -68,7 +123,7 @@
             this.btn_QuanLyDoanhThu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_QuanLyDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_QuanLyDoanhThu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btn_QuanLyDoanhThu.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.btn_QuanLyDoanhThu.IconChar = FontAwesome.Sharp.IconChar.Btc;
             this.btn_QuanLyDoanhThu.IconColor = System.Drawing.Color.Black;
             this.btn_QuanLyDoanhThu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_QuanLyDoanhThu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -87,7 +142,7 @@
             this.btn_QuanLyKhoHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_QuanLyKhoHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_QuanLyKhoHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btn_QuanLyKhoHang.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.btn_QuanLyKhoHang.IconChar = FontAwesome.Sharp.IconChar.LaptopHouse;
             this.btn_QuanLyKhoHang.IconColor = System.Drawing.Color.Black;
             this.btn_QuanLyKhoHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_QuanLyKhoHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -172,61 +227,6 @@
             this.btn_user.Text = "Quản lý";
             this.btn_user.UseVisualStyleBackColor = false;
             this.btn_user.Click += new System.EventHandler(this.btn_user_Click);
-            // 
-            // panel_logo
-            // 
-            this.panel_logo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_logo.Location = new System.Drawing.Point(0, 0);
-            this.panel_logo.Name = "panel_logo";
-            this.panel_logo.Size = new System.Drawing.Size(300, 200);
-            this.panel_logo.TabIndex = 1;
-            // 
-            // panel_info
-            // 
-            this.panel_info.Controls.Add(this.lbl_form);
-            this.panel_info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_info.Location = new System.Drawing.Point(300, 0);
-            this.panel_info.Name = "panel_info";
-            this.panel_info.Size = new System.Drawing.Size(1182, 50);
-            this.panel_info.TabIndex = 2;
-            // 
-            // lbl_form
-            // 
-            this.lbl_form.AutoSize = true;
-            this.lbl_form.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form.Location = new System.Drawing.Point(3, 9);
-            this.lbl_form.Name = "lbl_form";
-            this.lbl_form.Size = new System.Drawing.Size(108, 39);
-            this.lbl_form.TabIndex = 0;
-            this.lbl_form.Text = "Home";
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::GUI.Properties.Resources.icy2_5ebz_221114;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(300, 50);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1182, 803);
-            this.panel2.TabIndex = 3;
-            // 
-            // btn_QuanLyHoaDon
-            // 
-            this.btn_QuanLyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(114)))));
-            this.btn_QuanLyHoaDon.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_QuanLyHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_QuanLyHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_QuanLyHoaDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btn_QuanLyHoaDon.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.btn_QuanLyHoaDon.IconColor = System.Drawing.Color.Black;
-            this.btn_QuanLyHoaDon.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_QuanLyHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_QuanLyHoaDon.Location = new System.Drawing.Point(0, 620);
-            this.btn_QuanLyHoaDon.Name = "btn_QuanLyHoaDon";
-            this.btn_QuanLyHoaDon.Size = new System.Drawing.Size(300, 70);
-            this.btn_QuanLyHoaDon.TabIndex = 12;
-            this.btn_QuanLyHoaDon.Text = "   Quản lý hóa đơn";
-            this.btn_QuanLyHoaDon.UseVisualStyleBackColor = false;
             // 
             // FormQuanLy
             // 

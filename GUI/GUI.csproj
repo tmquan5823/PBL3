@@ -73,6 +73,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCQuanLyDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuanLyDoanhThu.Designer.cs">
+      <DependentUpon>UCQuanLyDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCQuanLyHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuanLyHoaDon.Designer.cs">
+      <DependentUpon>UCQuanLyHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCQuanLyKhoHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -110,8 +122,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCQuanLyDoanhThu.resx">
+      <DependentUpon>UCQuanLyDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQuanLyHoaDon.resx">
+      <DependentUpon>UCQuanLyHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQuanLyKhoHang.resx">
+      <DependentUpon>UCQuanLyKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCQuanLyNhanVien.resx">
       <DependentUpon>UCQuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQuanLySanPham.resx">
+      <DependentUpon>UCQuanLySanPham.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -132,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\62237a0e77af85429217d5d5d0bb429f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.banhmikepgakhia1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
