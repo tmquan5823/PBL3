@@ -31,3 +31,5 @@ C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\obj\Debug\GUI.Properties.Resources.resources
 C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\obj\Debug\GUI.UCQuanLyDoanhThu.resources
+C:\Users\tmqua\OneDrive\Desktop\PBL3\GUI\obj\Debug\GUI.UCQuanLyHoaDon.resources
