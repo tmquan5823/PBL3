@@ -129,6 +129,7 @@
             this.btn_QuanLyNV.TabIndex = 8;
             this.btn_QuanLyNV.Text = "   Lập hóa đơn";
             this.btn_QuanLyNV.UseVisualStyleBackColor = false;
+            this.btn_QuanLyNV.Click += new System.EventHandler(this.btn_QuanLyNV_Click);
             // 
             // btn_DangXuat
             // 

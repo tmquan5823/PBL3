@@ -16,5 +16,10 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btn_QuanLyNV_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
