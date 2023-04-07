@@ -1,0 +1,15 @@
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUIB.csproj.AssemblyReference.cache
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUIB.csproj.SuggestedBindingRedirects.cache
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.FormLogin.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.FormNhanVien.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.FormQuanLy.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.UCQuanLyDoanhThu.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.UCQuanLyHoaDon.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.UCQuanLyKhoHang.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.UCQuanLyNhanVien.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.UCQuanLySanPham.resources
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUIB.csproj.GenerateResource.cache
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUIB.csproj.CoreCompileInputs.cache
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.exe
+C:\Users\No One Kai\source\repos\PBL3\GUI\obj\Debug\GUI.pdb

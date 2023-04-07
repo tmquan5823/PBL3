@@ -38,8 +38,22 @@ namespace GUI
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            openNewForm();
-            this.Close();
+            string username = txt_username.Text;
+            string password = txt_password.Text;
+            if (Login(username, password))
+            {
+                openNewForm();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Sai ten tai khoan hoac mat khau");
+            } 
+        }
+
+        bool Login(string username, string password)
+        {
+            return AccountDAO.
         }
     }
 }
